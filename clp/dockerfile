@@ -1,7 +1,0 @@
-FROM postgres
-
-ENV POSTGRES_DB clp_casestudyA
-ENV POSTGRES_USER clp
-ENV POSTGRES_PASSWORD clp
-
-COPY createTableclp.sql /docker-entrypoint-initdb.d/
